@@ -19,6 +19,11 @@ const RadialDendrogram: React.FC<RadialDendrogramProps> = ({ data }: any) => {
             .cluster()
             .size([2 * Math.PI, radius])
             .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth)
+        const root1 = tree(
+            d3
+                .hierarchy(data.children)
+                .sort((a, b) => d3.ascending(a.data.topic, b.data.topic)),
+        )
 
         // Sort the tree and apply the layout.
         const root = tree(
@@ -74,6 +79,8 @@ const RadialDendrogram: React.FC<RadialDendrogramProps> = ({ data }: any) => {
             .attr('stroke', 'blue')
             .attr('stroke-opacity', 0.4)
             .attr('stroke-width', 1.5)
+
+            // console.log(root.descendants())
 
         // Append nodes.
         svg.append('g')
