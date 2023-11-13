@@ -20,7 +20,7 @@ const Home = () => {
     // Replace this data with your actual data structure
 
     return (
-        <div>
+        <div className='flex flex-col justify-center items-center'>
             <h1 className='text-red-500 text-6xl'>Radial Dendrogram Example</h1>
             {/* <RadialDendrogram data={dendrogramData} /> */}
             <IndexPage/>

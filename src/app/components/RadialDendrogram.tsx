@@ -128,11 +128,12 @@ const RadialDendrogram: React.FC<RadialDendrogramProps> = ({ data }: any) => {
                     d.x >= Math.PI ? 180 : 0
                 })`
             })
-            .attr('dy', '0.31em')
-            .attr('x', (d) => (d.x < Math.PI === !d.children ? 6 : -6))
             .attr('text-anchor', (d) =>
                 d.x < Math.PI === !d.children ? 'start' : 'end',
             ) // Keep parent text horizontally centered, others based on angle
+            .attr('dy', '0.31em')
+            .attr('x', (d) => (d.x < Math.PI === !d.children ? 6 : -6))
+            
 
             .attr('paint-order', 'stroke')
             .attr('stroke', 'white')
