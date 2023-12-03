@@ -388,77 +388,77 @@ export const strata = [
  { id: "Cybersecurity Evolution", value: "Global Risks" },
  { id: "Cybersecurity Evolution", value: "Global Governance" },
 ]
-export const strat = [
-  Environmental Impact of Computing, Circular Economy 
-  Environmental Impact of Computing, Sustainable development 
-  Environmental Impact of Computing, Climate Change 
-  Environmental Impact of Computing, Mining and Metals 
-  Environmental Impact of Computing, Energy Transition 
-  Environmental Impact of Computing, Electricity 
-  Environmental Impact of Computing, Advanced Materials 
-  Environmental Impact of Computing, Future of the Environment 
-  Environmental Impact of Computing, Artificial Intelligence 
-  Overcoming Technological Limitations, Quantum Computing 
-  Overcoming Technological Limitations, Energy Transition 
-  Overcoming Technological Limitations, Innovation 
-  Overcoming Technological Limitations, Fourth Industrial Revolution 
-  Overcoming Technological Limitations, Biotechnology 
-  Overcoming Technological Limitations, Advanced Materials 
-  Overcoming Technological Limitations, Trade and Inveestment 
-  Overcoming Technological Limitations, Future of the Environment 
-  New Computing Governance Models, Fourth Industrial Revolution 
-  New Computing Governance Models, Digital Identity 
-  New Computing Governance Models, European Union 
-  New Computing Governance Models, Artificial Intelligence 
-  New Computing Governance Models, Corporate Governance 
-  New Computing Governance Models, The Digital Economy 
-  New Computing Governance Models, Agile Governance 
-  New Computing Governance Models, Justice and Law 
-  New Computing Governance Models, Internet Governance 
-  Widespread Applications, Biotechnology 
-  Widespread Applications, Artificial Intelligence 
-  Widespread Applications, Precision Medicine 
-  Widespread Applications, Information and Communications Technology 
-  Widespread Applications, Retail, Consumer Goods and Lifestyle 
-  Widespread Applications, Mobility 
-  Widespread Applications, 3D Printing 
-  Widespread Applications, Internet of Things 
-  Widespread Applications, Health and Healthcare 
-  Widespread Applications, Future of Consumption 
-  Widespread Applications, Education 
-  A Broader Computing Reach, Biotechnology 
-  A Broader Computing Reach, Advanced Manufacturing 
-  A Broader Computing Reach, Artificial Intelligence 
-  A Broader Computing Reach, Precision Medicine 
-  A Broader Computing Reach, Mobility 
-  A Broader Computing Reach, Health and Healthcare 
-  A Broader Computing Reach, 3D Printing 
-  A Broader Computing Reach, Virtual and Augumennted Reality 
-  A Broader Computing Reach, Supply Chains 
-  A Broader Computing Reach, Automotive Industry 
-  Unlocking Big Data, Quantum Computing 
-  Unlocking Big Data, Digital Identity 
-  Unlocking Big Data, Artificial Intelligence 
-  Unlocking Big Data, The Digital Economy 
-  Unlocking Big Data, Internet Governance 
-  Unlocking Big Data, Retail, Consumer Goods and Lifestyle 
-  Unlocking Big Data, Internet of Things 
-  Unlocking Big Data, Virtual and Augumennted Reality 
-  Unlocking Big Data, Media, Entertainment and Sport 
-  Unlocking Big Data, Data Science 
-  Unlocking Big Data, Human Rights 
-  Unlocking Big Data, Behavioural Sciences 
-  Unlocking Big Data, Values 
-  Unlocking Big Data, Insurance 
-  Cybersecurity Evolution, Innovation 
-  Cybersecurity Evolution, Fourth Industrial Revolution 
-  Cybersecurity Evolution, Digital Identity 
-  Cybersecurity Evolution, The Digital Economy 
-  Cybersecurity Evolution, Information and Communications Technology 
-  Cybersecurity Evolution, International Security 
-  Cybersecurity Evolution, Cybersecurity 
-  Cybersecurity Evolution, Illicit Economy 
-  Cybersecurity Evolution, Global Risks 
-  Cybersecurity Evolution, Global Governance 
-]
+// export const strat = [
+//   Environmental Impact of Computing, Circular Economy 
+//   Environmental Impact of Computing, Sustainable development 
+//   Environmental Impact of Computing, Climate Change 
+//   Environmental Impact of Computing, Mining and Metals 
+//   Environmental Impact of Computing, Energy Transition 
+//   Environmental Impact of Computing, Electricity 
+//   Environmental Impact of Computing, Advanced Materials 
+//   Environmental Impact of Computing, Future of the Environment 
+//   Environmental Impact of Computing, Artificial Intelligence 
+//   Overcoming Technological Limitations, Quantum Computing 
+//   Overcoming Technological Limitations, Energy Transition 
+//   Overcoming Technological Limitations, Innovation 
+//   Overcoming Technological Limitations, Fourth Industrial Revolution 
+//   Overcoming Technological Limitations, Biotechnology 
+//   Overcoming Technological Limitations, Advanced Materials 
+//   Overcoming Technological Limitations, Trade and Inveestment 
+//   Overcoming Technological Limitations, Future of the Environment 
+//   New Computing Governance Models, Fourth Industrial Revolution 
+//   New Computing Governance Models, Digital Identity 
+//   New Computing Governance Models, European Union 
+//   New Computing Governance Models, Artificial Intelligence 
+//   New Computing Governance Models, Corporate Governance 
+//   New Computing Governance Models, The Digital Economy 
+//   New Computing Governance Models, Agile Governance 
+//   New Computing Governance Models, Justice and Law 
+//   New Computing Governance Models, Internet Governance 
+//   Widespread Applications, Biotechnology 
+//   Widespread Applications, Artificial Intelligence 
+//   Widespread Applications, Precision Medicine 
+//   Widespread Applications, Information and Communications Technology 
+//   Widespread Applications, Retail, Consumer Goods and Lifestyle 
+//   Widespread Applications, Mobility 
+//   Widespread Applications, 3D Printing 
+//   Widespread Applications, Internet of Things 
+//   Widespread Applications, Health and Healthcare 
+//   Widespread Applications, Future of Consumption 
+//   Widespread Applications, Education 
+//   A Broader Computing Reach, Biotechnology 
+//   A Broader Computing Reach, Advanced Manufacturing 
+//   A Broader Computing Reach, Artificial Intelligence 
+//   A Broader Computing Reach, Precision Medicine 
+//   A Broader Computing Reach, Mobility 
+//   A Broader Computing Reach, Health and Healthcare 
+//   A Broader Computing Reach, 3D Printing 
+//   A Broader Computing Reach, Virtual and Augumennted Reality 
+//   A Broader Computing Reach, Supply Chains 
+//   A Broader Computing Reach, Automotive Industry 
+//   Unlocking Big Data, Quantum Computing 
+//   Unlocking Big Data, Digital Identity 
+//   Unlocking Big Data, Artificial Intelligence 
+//   Unlocking Big Data, The Digital Economy 
+//   Unlocking Big Data, Internet Governance 
+//   Unlocking Big Data, Retail, Consumer Goods and Lifestyle 
+//   Unlocking Big Data, Internet of Things 
+//   Unlocking Big Data, Virtual and Augumennted Reality 
+//   Unlocking Big Data, Media, Entertainment and Sport 
+//   Unlocking Big Data, Data Science 
+//   Unlocking Big Data, Human Rights 
+//   Unlocking Big Data, Behavioural Sciences 
+//   Unlocking Big Data, Values 
+//   Unlocking Big Data, Insurance 
+//   Cybersecurity Evolution, Innovation 
+//   Cybersecurity Evolution, Fourth Industrial Revolution 
+//   Cybersecurity Evolution, Digital Identity 
+//   Cybersecurity Evolution, The Digital Economy 
+//   Cybersecurity Evolution, Information and Communications Technology 
+//   Cybersecurity Evolution, International Security 
+//   Cybersecurity Evolution, Cybersecurity 
+//   Cybersecurity Evolution, Illicit Economy 
+//   Cybersecurity Evolution, Global Risks 
+//   Cybersecurity Evolution, Global Governance 
+// ]
 

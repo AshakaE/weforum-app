@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from 'react'
 import * as d3 from 'd3'
-import { dendrogramData } from '@/app/data'
+import { dendrogramData } from './data'
 
 interface RadialDendrogramProps {
     data: typeof dendrogramData
@@ -80,7 +80,7 @@ const RadialDendrogram: React.FC<RadialDendrogramProps> = ({ data }: any) => {
             .attr('stroke-opacity', 0.4)
             .attr('stroke-width', 1.5)
 
-            // console.log(root.descendants())
+        // console.log(root.descendants())
 
         // Append nodes.
         svg.append('g')
@@ -106,7 +106,6 @@ const RadialDendrogram: React.FC<RadialDendrogramProps> = ({ data }: any) => {
                     .attr('r', (d) => (!d.children ? 14 : 16))
             })
             .on('mouseleave', function () {
-                
                 d3.select(this)
                     .transition()
                     .duration(300)
@@ -133,7 +132,6 @@ const RadialDendrogram: React.FC<RadialDendrogramProps> = ({ data }: any) => {
             ) // Keep parent text horizontally centered, others based on angle
             .attr('dy', '0.31em')
             .attr('x', (d) => (d.x < Math.PI === !d.children ? 6 : -6))
-            
 
             .attr('paint-order', 'stroke')
             .attr('stroke', 'white')

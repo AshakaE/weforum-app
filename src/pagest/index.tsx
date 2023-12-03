@@ -1,9 +1,8 @@
-import '../globals.css'
 import React from 'react'
-import RadialDendrogram from '../app/components/RadialDendrogram'
-import { dendrogramData, v } from '@/app/data'
-import Dendrogram from '../app/components/build'
-import IndexPage from '../app/components/build'
+import RadialDendrogram from '../components/RadialDendrogram'
+import { dendrogramData, v } from '@/components/data'
+import Dendrogram from '../components/build'
+import IndexPage from '../components/build'
 
 const data = {
     name: 'Eve',
@@ -23,7 +22,7 @@ const Home = () => {
         <div className='flex flex-col justify-center items-center'>
             <h1 className='text-red-500 text-6xl'>Radial Dendrogram Example</h1>
             {/* <RadialDendrogram data={dendrogramData} /> */}
-            <IndexPage/>
+            {/* <IndexPage /> */}
             {/* <Dendrogram data={v} /> */}
         </div>
     )

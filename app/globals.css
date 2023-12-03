@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Akkurat';
+  src: url('./assets/Akkurat.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
